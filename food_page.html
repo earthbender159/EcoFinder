@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>EcoFinder</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="1.js"></script>
+    </head>
+    <body>
+    <center>
+        <h2 id = "Score">Sustainabliity Rating: </h2>
+        <h3>Don't See the Product you want, fill out the form and then press the "Find Sustainabliity Rating" button</h3>
+        <h4>Name of Product:</h4><input type = "text" id = "Product_Name" class = "form-control" placeholder="Product Name">
+        <h4>Customer Rating</h4><input type = "text" id = "Customer_Rating" class = "form-control" placeholder = "Customer Rating">
+        <h4>Product Description</h4><input type = "text" id = "Product_Description" class = "form-control" placeholder = "Product Description">
+        <h4>Ingredients</h4>
+        <h5>Type in "Yes" or "No" for each ingredient</h5>
+        <h5>Oxybenzone and Octinoxate</h5>
+        <input type = "text" id = "Ingredient1" class = "form-control" placeholder = "Ingredient1">
+        <h5>Parabens</h5>
+        <input type = "text" id = "Ingredient2" class = "form-control" placeholder = "Ingredient2">
+        <h5>Triclosan</h5>
+        <input type = "text" id = "Ingredient3" class = "form-control" placeholder = "Ingredient3">
+        <h5>Fragrance</h5>
+        <input type = "text" id = "Ingredient4" class = "form-control" placeholder = "Ingredient4">
+        <h5>Sulfates</h5>
+        <input type = "text" id = "Ingredient5" class = "form-control" placeholder = "Ingredient5">
+        <h5>Mircroplastics</h5>
+        <input type = "text" id = "Ingredient6" class = "form-control" placeholder = "Ingredient6">
+        <h4>Customer Review</h4><input type = "text" id = "Customer_Review" class = "form-control" placeholder = "Customer Review">
+        <h4>Similar Products</h4><input type = "text" id = "Similar_Products" class = "form-control" placeholder = "Type Names of Similar Products, if none then type none"> 
+<button id = "Add_Product_Button" class = "btn btn-primary" onclick = "AddProduct();">Find Sustainabliity Rating</button>
+<div id = "Product"></div>
+</center>
+</body>
+</html>
